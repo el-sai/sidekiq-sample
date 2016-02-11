@@ -3,6 +3,7 @@ class WorkerTwo
   sidekiq_options :queue => :default
 
   def perform
-  	puts "Worker TWO executing"
+  	print "\t***\n\t  *\n\t  *\n\t***\n\t*\n\t*\n\t***"
+  	# puts "Worker TWO executing"
   end
 end
