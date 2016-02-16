@@ -47,3 +47,10 @@ group :development, :test do
   gem 'letter_opener'
 end
 
+group :test do
+	# Rspec for rails and sidekiq testing
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+  gem 'rspec-sidekiq'
+end
+
